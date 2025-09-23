@@ -14,7 +14,12 @@ Mental health conditions such as depression, anxiety, and stress impact quality 
 - **Responses**: ~40,000 participants.  
 - **Format**: Likert scale (1 = Did not apply, 4 = Applied most of the time).  
 - **Features**: Personality questions (TIPI), demographics (age, gender, education, religion, urbanicity).  
-- **Target**: Depression severity (Normal, Mild, Moderate, Severe, Extremely Severe).  
+- **Target**: Depression severity (Normal, Mild, Moderate, Severe, Extremely Severe).
+   
+### ⚠️ Dataset Access
+The original dataset is not included in this repository.  
+You can download the DASS-42 dataset or use your own survey data.  
+Update the file path in `df_dass = pd.read_csv("path/to/DASS_data.csv", sep="\t", engine="python")` before running.
 
 ---
 
