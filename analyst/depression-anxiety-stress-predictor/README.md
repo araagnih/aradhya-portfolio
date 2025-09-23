@@ -74,14 +74,38 @@ Update the file path in `df_dass = pd.read_csv("path/to/DASS_data.csv", sep="\t"
 
 ---
 
-## 📊 Visuals  
+## 🎨 Visuals  
 
-- Confusion Matrix (Logistic Regression).  
-- PCA Variance Explained.  
-- Model Accuracy Comparison (bar chart).  
-- Correlation heatmap of TIPI personality traits vs depression scores.  
+**Pipeline (ML Workflow)**  
+Step-by-step pipeline from dataset to results.  
+<img src="visuals/pipeline_diagram.png" alt="ML pipeline" width="1400">
 
-*(See `/visuals` folder)*  
+---
+
+**Model Accuracy Comparison**  
+Logistic Regression performed the best (90.8%), followed by Random Forest.  
+<img src="visuals/model_accuracy.png" alt="Model accuracy comparison" width="600">
+
+---
+
+**PCA Cumulative Variance Explained**  
+15 components retained ~60% variance, balancing efficiency and accuracy.  
+<img src="visuals/pca_variance.png" alt="PCA cumulative variance" width="600">
+
+---
+
+**Focused Correlation (Personality vs Depression)**  
+- TIPI4 (Anxious) strongly positive with Depression.  
+- TIPI9 (Calm) strongly negative with Depression.  
+<img src="visuals/correlation_tipivsdepression.png" alt="TIPI vs Depression correlation" width="600">
+
+---
+
+**Expanded Correlation Matrix (Selected Features)**  
+- Depression, Anxiety, and Stress are highly correlated.  
+- Personality traits (TIPI4, TIPI9) are stronger predictors than Age.  
+<img src="visuals/_correlation_matrix.png" alt="Correlation matrix" width="700">
+
 
 ---
 
@@ -94,6 +118,7 @@ Update the file path in `df_dass = pd.read_csv("path/to/DASS_data.csv", sep="\t"
 ---
 
 ## 🚀 Next Steps  
-- Extend analysis to Anxiety and Stress severity prediction.  
-- Explore deep learning models (e.g., Neural Networks) for larger datasets.  
+- Extend modeling to Anxiety and Stress severity classification.  
+- Explore deep learning models for larger-scale datasets.  
+- Apply results to design targeted mental health interventions.  
 
