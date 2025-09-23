@@ -2,6 +2,21 @@
 
 This project uses the **DASS-42 survey dataset (~40K responses)** to predict mental health severity levels (Normal → Extremely Severe) based on personality traits and demographics.  
 
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python) 
+![Pandas](https://img.shields.io/badge/Data%20Analysis-Pandas-yellowgreen) 
+![Scikit-learn](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange) 
+![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-blueviolet) 
+![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-lightblue) 
+![Jupyter](https://img.shields.io/badge/Environment-Jupyter-orange?logo=jupyter) 
+![EDA](https://img.shields.io/badge/EDA-brightgreen) 
+![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-yellow) 
+![PCA](https://img.shields.io/badge/PCA-important) 
+![Cross Validation](https://img.shields.io/badge/Cross%20Validation-blue) 
+![Model Evaluation](https://img.shields.io/badge/Model%20Evaluation-red) 
+![Models](https://img.shields.io/badge/Models-LogReg%20%7C%20RF%20%7C%20KNN%20%7C%20DT-lightgrey)
+
+
+
 ---
 
 ## 🧩 Problem Statement  
