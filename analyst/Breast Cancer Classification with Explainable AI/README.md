@@ -31,11 +31,17 @@ The dataset is **imbalanced**:
 - ~37% Malignant  
 → Handled via **SMOTE oversampling inside cross-validation**.  
 
-<p align="center"><img src="visuals/00_class_distribution.png" width="350"></p>  
+<p align="center"><img src="visuals/00_class_distribution.png" width="550"></p>  
 
 ---
 
 ## ⚙️ Approach  
+
+**Pipeline (ML Workflow)**  
+End-to-end workflow from dataset to results.  
+
+<img src="visuals/pipeline_diagram.png" alt="ML pipeline" width="1200">
+
 
 1. **Data Preprocessing**  
    - Scaling via MinMaxScaler  
@@ -80,8 +86,8 @@ The dataset is **imbalanced**:
 
 **Confusion Matrix & ROC**
 <p align="center">
-  <img src="visuals/02_confusion_matrix.png" width="330">
-  <img src="visuals/03_roc.png" width="360">
+  <img src="visuals/02_confusion_matrix.png" width="530">
+  <img src="visuals/03_roc.png" width="560">
 </p>
 
 **Precision–Recall vs Threshold**  
@@ -96,32 +102,32 @@ The dataset is **imbalanced**:
 
 **Correlation Heatmaps**
 <p align="center">
-  <img src="visuals/01_corr_full.png" width="400">
-  <img src="visuals/01_corr_subset.png" width="400">
+  <img src="visuals/01_corr_full.png" width="800">
+  <img src="visuals/01_corr_subset.png" width="800">
 </p>
 
 **Top Feature Distributions**
 <p align="center">
-  <img src="visuals/eda_worst_concave_points_boxplot.png" width="260">
-  <img src="visuals/eda_worst_radius_boxplot.png" width="260">
-  <img src="visuals/eda_worst_texture_boxplot.png" width="260">
+  <img src="visuals/eda_worst_concave_points_boxplot.png" width="460">
+  <img src="visuals/eda_worst_radius_boxplot.png" width="460">
+  <img src="visuals/eda_worst_texture_boxplot.png" width="460">
 </p>
 
 **Permutation Importance**
-<p align="center"><img src="visuals/04_perm_importance.png" width="450"></p>
+<p align="center"><img src="visuals/04_perm_importance.png" width="650"></p>
 
 **SHAP (Global + Local)**  
 <p align="center">
-  <img src="visuals/05_shap_beeswarm.png" width="400">
-  <img src="visuals/06_shap_bar.png" width="400">
+  <img src="visuals/05_shap_beeswarm.png" width="600">
+  <img src="visuals/06_shap_bar.png" width="600">
 </p>
-<p align="center"><img src="visuals/07_shap_dependence.png" width="450"></p>
+<p align="center"><img src="visuals/07_shap_dependence.png" width="650"></p>
 
 **PDP + ICE**
-<p align="center"><img src="visuals/08_pdp_ice.png" width="650"></p>
+<p align="center"><img src="visuals/08_pdp_ice.png" width="850"></p>
 
 **LIME (Single Prediction Explanation)**
-<p align="center"><img src="visuals/09_lime_example.png" width="400"></p>  
+<p align="center"><img src="visuals/09_lime_example.png" width="600"></p>  
 
 ---
 
