@@ -37,10 +37,10 @@ The dataset is **imbalanced**:
 
 ## ⚙️ Approach  
 
-**Pipeline (ML Workflow)**  
-End-to-end workflow from dataset to results.  
+**Pipeline (ML Workflow): End-to-end workflow from dataset to results**  
+ 
 
-<img src="visuals/pipeline_diagram.png" alt="ML pipeline" width="1200">
+<img src="visuals/_pipeline_diagram.png" alt="ML pipeline" width="1200">
 
 
 1. **Data Preprocessing**  
