@@ -84,50 +84,94 @@ The dataset is **imbalanced**:
 | F1 Score    | 94%       |
 | ROC-AUC     | 95.04%    |
 
-**Confusion Matrix & ROC**
-<p align="center">
-  <img src="visuals/02_confusion_matrix.png" width="530">
-  <img src="visuals/03_roc.png" width="560">
-</p>
+**Confusion Matrix**  
+The model correctly classified **159 out of 171 patients**, with only 6 false positives and 6 false negatives. Errors were balanced, giving ~94% across precision, recall, and F1.   
+<img src="visuals/02_confusion_matrix.png" alt="Confusion Matrix" width="400">
 
-**Precision–Recall vs Threshold**  
-<p align="center"><img src="visuals/09_pr_threshold.png" width="500"></p>  
+---
+
+**ROC Curve**  
+An **AUC of 0.95** demonstrates excellent ability to separate benign from malignant tumors in this dataset. The sharp curve indicates few false alarms at high sensitivity, important for medical screening.  
+<img src="visuals/03_roc.png" alt="ROC curve" width="500">
+
+---
+
 
 **Calibration Curve**  
-<p align="center"><img src="visuals/10_calibration.png" width="400"></p>  
+Predicted probabilities closely matched actual outcomes (points near diagonal), showing the model is not just accurate, but also **well-calibrated** for probability-based decision-making.  
+<img src="visuals/10_calibration.png" width="400"></p>  
+
+---
+
+**Precision-Recall vs Threshold**  
+The model maintained both high precision and recall above 90% across a wide range of thresholds, meaning predictions are reliable even if the cutoff probability is adjusted.   
+<img src="visuals/09_pr_threshold.png" alt="PR vs threshold" width="600">
+
+---
+
+**Calibration Curve**  
+Predicted probabilities closely matched actual outcomes (points near diagonal), showing the model is not just accurate, but also **well-calibrated** for probability-based decision-making.   
+<img src="visuals/10_calibration.png" alt="Calibration curve" width="500">
+
 
 ---
 
 ## 🎨 Visuals  
 
-**Correlation Heatmaps**
-<p align="center">
-  <img src="visuals/01_corr_full.png" width="800">
-  <img src="visuals/01_corr_subset.png" width="800">
-</p>
+**Correlation Heatmap (All Features)**  
+Many of the 30 features are highly correlated (e.g., *mean radius, mean perimeter, mean area*). This confirmed the need for dimensionality reduction and feature selection to avoid redundancy.  
+<img src="visuals/01_corr_full.png" alt="Full correlation heatmap" width="700">
 
-**Top Feature Distributions**
-<p align="center">
-  <img src="visuals/eda_worst_concave_points_boxplot.png" width="460">
-  <img src="visuals/eda_worst_radius_boxplot.png" width="460">
-  <img src="visuals/eda_worst_texture_boxplot.png" width="460">
-</p>
+---
 
-**Permutation Importance**
-<p align="center"><img src="visuals/04_perm_importance.png" width="650"></p>
+**Correlation Heatmap (Selected Features)**  
+After RFECV, the three strongest predictors emerged: *worst radius, worst concave points, worst texture*. The focused heatmap shows they are less correlated with each other, justifying their selection.
+<img src="visuals/01_corr_subset.png" alt="Subset correlation heatmap" width="600">
 
-**SHAP (Global + Local)**  
-<p align="center">
-  <img src="visuals/05_shap_beeswarm.png" width="600">
-  <img src="visuals/06_shap_bar.png" width="600">
-</p>
-<p align="center"><img src="visuals/07_shap_dependence.png" width="650"></p>
+---
 
-**PDP + ICE**
-<p align="center"><img src="visuals/08_pdp_ice.png" width="850"></p>
 
-**LIME (Single Prediction Explanation)**
-<p align="center"><img src="visuals/09_lime_example.png" width="600"></p>  
+**Permutation Feature Importance**  
+On the test set, *worst concave points* and *worst radius* caused the largest drops in accuracy when permuted, proving they are essential to classification.   
+<img src="visuals/04_perm_importance.png" alt="Permutation Importance" width="600">
+
+---
+
+**SHAP Beeswarm (Global)**  
+For individual patients, high values of *worst radius* and *worst concave points* consistently pushed predictions toward malignancy, while lower values pushed toward benign.   
+<img src="visuals/05_shap_beeswarm.png" alt="SHAP Beeswarm" width="700">
+
+---
+
+**SHAP Mean |Impact| (Bar)**  
+Across the test set, *worst radius* contributed the most to the model’s decision process, reinforcing what we saw in permutation importance. 
+<img src="visuals/06_shap_bar.png" alt="SHAP bar chart" width="600">
+
+---
+
+**SHAP Dependence Plot**  
+Higher *worst radius* values strongly increased malignancy prediction, especially when paired with high *worst texture*. This reveals an interaction between tumor size and texture.  
+<img src="visuals/07_shap_dependence.png" alt="SHAP dependence" width="600">
+
+---
+
+**Partial Dependence & ICE (PDP + ICE)**  
+When *worst concave points* exceeded ~0.5, predictions shifted sharply toward malignancy for most patients, confirming this threshold as clinically meaningful.  
+<img src="visuals/08_pdp_ice.png" alt="PDP + ICE plots" width="800">
+
+---
+
+**LIME Explanation (Local)**  
+For a specific test patient, LIME showed that *worst concave points > 0.57* was the decisive feature driving the prediction of malignancy, a transparent case-level justification.  
+<img src="visuals/09_lime_example.png" alt="LIME local explanation" width="500">
+
+---
+
+**Boxplots (EDA)**  
+Malignant tumors consistently had higher values for *worst concave points* and *worst radius*, while benign cases had lower, tighter distributions. This aligns with model explanations from SHAP and LIME.  
+<img src="visuals/eda_worst_concave_points_boxplot.png" alt="Boxplot concave points" width="400">  
+<img src="visuals/eda_worst_radius_boxplot.png" alt="Boxplot worst radius" width="400">  
+<img src="visuals/eda_worst_texture_boxplot.png" alt="Boxplot worst texture" width="400">
 
 ---
 
