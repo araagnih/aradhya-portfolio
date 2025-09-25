@@ -91,14 +91,13 @@ The investigation concluded the failure was due to a **combination of factors**:
 - Add **final inspection protocols** (optical/SEM checks) before shipment.  
 
 ---
-
 ## 📂 Additional Resources  
-- 📄 [Full Technical Report]()  
+- 📄 [Full Technical Report](report/Failure%20Analysis_Report.pdf)
 
 ---
 
 ## 🎨 Visuals Directory  
-All raw SEMs, micrographs, and supporting images are available in the `/visuals/` folder for deeper inspection.  
+All raw SEMs, micrographs, and supporting images are available in the [visuals/](visuals/) folder for deeper inspection.  
 
 ---
 
