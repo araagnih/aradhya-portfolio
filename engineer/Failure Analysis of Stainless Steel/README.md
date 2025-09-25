@@ -90,10 +90,6 @@ The investigation concluded the failure was due to a **combination of factors**:
 - Consider alternative stainless steels with less anisotropy.  
 - Add **final inspection protocols** (optical/SEM checks) before shipment.  
 
----
-## 📂 Additional Resources  
--📄 [Full Technical Report](engineer/Failure%20Analysis%20of%20Stainless%20Steel/Failure%20Analysis_Report.pdf)
-
 
 ---
 
