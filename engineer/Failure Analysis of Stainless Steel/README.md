@@ -92,7 +92,8 @@ The investigation concluded the failure was due to a **combination of factors**:
 
 ---
 ## 📂 Additional Resources  
-- 📄 [Full Technical Report](report/Failure%20Analysis_Report.pdf)
+-📄 [Full Technical Report](engineer/Failure%20Analysis%20of%20Stainless%20Steel/Failure%20Analysis_Report.pdf)
+
 
 ---
 
