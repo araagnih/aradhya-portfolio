@@ -15,7 +15,7 @@ The **objective** was to design a **low-cost, locally reproducible filtration sy
 
 ## 🔬 Design Thinking Approach  
 
-<img src="visuals/design_thinking_approach.png" width="1000">
+<img src="visuals/design_thinking_approach.png" width="1200">
 
 *This pipeline shows how the project followed a structured design thinking approach. Each stage (TRIZ, HOQ, DFMEA) reduced uncertainty and converted abstract problems (water scarcity) into a buildable solution with measurable performance.*
 
@@ -23,7 +23,7 @@ The **objective** was to design a **low-cost, locally reproducible filtration sy
 ### TRIZ Summary  
 Structured contradictions were mapped using TRIZ to guide design trade-offs.  
 
-<img src="visuals/01_TRIZ_summary.png" width="500">  
+<img src="visuals/01_TRIZ_summary.png" width="700">  
 
 *TRIZ highlighted that cost, durability, and manufacturability trade-offs could be solved through modular design. This directly led to detachable compartments and segmented pipes, reducing failure risk while keeping the system maintainable in rural settings.*  
 
@@ -59,7 +59,7 @@ To anticipate risks, we assessed severity, occurrence, and detection of potentia
 ## ⚙️ Proposed Design  
 
 ### Cross-Sectional Filter Schematic  
-<img src="visuals/04_cross_section_filter.png" width="400">  
+<img src="visuals/04_cross_section_filter.png" width="550">  
 
 *The cross-section shows a scalable design: even without the RO/UF membrane, the system still delivers safe water. This flexibility makes it adaptable across income groups and infrastructure levels.*  
 
