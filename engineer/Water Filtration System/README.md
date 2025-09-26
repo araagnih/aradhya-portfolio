@@ -38,9 +38,11 @@ We mapped customer needs → design attributes → engineering solutions.
 
 ### HOQ Priority Bar & Heatmap
 
-<img src="visuals/02_HOQ_flow_diagram.png" width="700">  
-<img src="visuals/02_HOQ_flow_diagram.png" width="700">  
+<img src="visuals/Extra_hoq_barchart.png" width="700">  
+<img src="visuals/Extra_hoq_heatmap.png" width="700">  
+
 *The HOQ analysis showed that “compact & lightweight” ranked above cost, signaling that portability and household integration mattered more than absolute price. This finding reshaped the BOM by prioritizing smaller casings and modular parts.*
+
 ---
 
 ### DFMEA (Failure Modes & Effects Analysis)  
@@ -48,7 +50,9 @@ To anticipate risks, we assessed severity, occurrence, and detection of potentia
 
 <img src="visuals/03_DFMEA.png" width="600">  
 
-*The DFMEA exposed that human error (wrong compartment attachment) was a bigger risk than material failure. This insight justified adding color-coded connectors, a low-cost mitigation with high impact on system reliability.*  
+
+*The DFMEA exposed that human error (wrong compartment attachment) carried the highest **RPN (Risk Priority Number)**, a score that combines severity, occurrence, and detection. This meant assembly mistakes posed a bigger risk than material failure. The finding justified adding color-coded connectors, a low-cost mitigation with high impact on system reliability.*  
+
 
 ---
 
@@ -76,7 +80,7 @@ To anticipate risks, we assessed severity, occurrence, and detection of potentia
 ---
 
 ### Cost vs Performance  
-<img src="visuals/06_cost_vs_performance.png" width="500">  
+<img src="visuals/08_cost_vs_performance.png" width="500">  
 
 *This shows the design sits in the “sweet spot”: nearly matching commercial RO performance, but at ~40% lower cost. This balance validates the design as a viable alternative in low-resource contexts.  
 
