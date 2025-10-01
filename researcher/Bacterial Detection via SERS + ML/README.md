@@ -40,7 +40,7 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 ## ⚙️ Workflow  
 
-<img src="visuals/workflow.png" width="800">  
+<img src="visuals/workflow.png" width="1200">  
 
 **End-to-end workflow:**  
 - *Left*: Corneal prep and SERS acquisition with optimized nanoparticles  
@@ -58,8 +58,8 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
   <img src="visuals/SERS_setup.png" width="600">  
 
 - **Nanoparticle synthesis**  
-  Colloidal silver nanoparticles confirmed with UV-Vis absorption spectra.  
-  <img src="visuals/nanoparticle_synthesis.png" width="500">  
+  Colloidal silver nanoparticles (A) confirmed with UV-Vis absorption spectra (B).  
+  <img src="visuals/nanoparticle_sythesis.png" width="500">  
 
 - **Enhancement calculations**  
   Quantification of Raman signal amplification achieved with nanoparticles.  
@@ -67,7 +67,7 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 - **Optimization experiments**  
   Signal strength across different nanoparticle concentrations and interaction times. ANOVA + Fisher test confirmed the optimized condition was statistically significant.  
-  <img src="visuals/optimization_experiments.png" width="500">  
+  <img src="visuals/optimization_experiments.png" width="600">  
 
 ---
 
@@ -87,7 +87,7 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 - **Preprocessed spectrum**  
   After baseline correction (airPLS) and smoothing (Savitzky–Golay), the signal is cleaner and comparable across samples.  
-  <img src="visuals/preprocessed_spectrum.png" width="500">  
+  <img src="visuals/preprocessed_spectrum.png" width="700">  
 
 ---
 
@@ -113,9 +113,9 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
   Comparison of model performance across variants. The final pipeline (SVM + PCA + KMeans) achieved 92.5% accuracy with perfect specificity.  
   <img src="visuals/performance_metrics.png" width="600">  
 
-- **Confusion matrices**  
+- **Confusion matrix**  
   Breakdown of classification outcomes: perfect specificity (no false positives) and strong sensitivity. 
-    <img src="visuals/confusion_matrix_heatmap.png" width="360">  
+    <img src="visuals/confusion_matrix_heatmap.png" width="500">  
   
 
 ---
@@ -151,7 +151,7 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 ## 📚 Thesis 
 
-- **Published version (DOI)**: see [``]()  
+- **Published version (DOI)**: see [`Surface Enhanced Raman Spectroscopy for Diagnostics in Ocular Health`](https://doi.org/10.20381/ruor-30712)  
 
 ---
 
