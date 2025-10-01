@@ -55,20 +55,19 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 - **SERS setup schematic**  
   Experimental configuration for capturing Raman spectra from corneal tissue using silver nanoparticles.  
-  <img src="visuals/figure4.png" width="600">  
+  <img src="visuals/SERS_setup.png" width="600">  
 
 - **Nanoparticle synthesis**  
   Colloidal silver nanoparticles confirmed with UV-Vis absorption spectra.  
-  <img src="visuals/figure6.png" width="500">  
+  <img src="visuals/nanoparticle_synthesis.png" width="500">  
 
 - **Enhancement calculations**  
   Quantification of Raman signal amplification achieved with nanoparticles.  
-  <img src="visuals/figure7.png" width="500">  
+  <img src="visuals/enhancement_calculations.png" width="500">  
 
 - **Optimization experiments**  
   Signal strength across different nanoparticle concentrations and interaction times. ANOVA + Fisher test confirmed the optimized condition was statistically significant.  
-  <img src="visuals/figure8.png" width="500">  
-  <img src="visuals/figure9.png" width="500">  
+  <img src="visuals/optimization_experiments.png" width="500">  
 
 ---
 
@@ -76,19 +75,19 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 - **Spectrum without biofilm**  
   Raman spectrum of corneal tissue without PA01 biofilm (control).  
-  <img src="visuals/figure20.png" width="500">  
+  <img src="visuals/spectrum_no_biofilm.png" width="500">  
 
 - **Spectrum with biofilm**  
   Raman spectrum of corneal tissue with PA01 biofilm present.  
-  <img src="visuals/figure21.png" width="500">  
+  <img src="visuals/spectrum_with_biofilm.png" width="500">  
 
 - **Raw biofilm spectrum**  
   Example of an unprocessed spectrum showing baseline drift and noise.  
-  <img src="visuals/figure25.png" width="500">  
+  <img src="visuals/raw_spectrum.png" width="500">  
 
 - **Preprocessed spectrum**  
   After baseline correction (airPLS) and smoothing (Savitzky–Golay), the signal is cleaner and comparable across samples.  
-  <img src="visuals/figure26.png" width="500">  
+  <img src="visuals/preprocessed_spectrum.png" width="500">  
 
 ---
 
@@ -96,15 +95,15 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 - **PCA variance explained**  
   ~30 principal components capture >95% of the variance, reducing dimensionality from 1024 features.  
-  <img src="visuals/figure27.png" width="600">  
+  <img src="visuals/PCA_variance_explained.png" width="600">  
 
 - **PCA visualization**  
   Spectral data separates along PCA axes, showing intrinsic group differences.  
-  <img src="visuals/figure17.png" width="500">  
+  <img src="visuals/PCA_visualization.png" width="500">  
 
 - **KMeans clustering**  
   Clustering accounts for intra-sample variability before classification.  
-  <img src="visuals/figure18.png" width="500">  
+  <img src="visuals/KMeans_clustering.png" width="500">  
 
 ---
 
@@ -112,14 +111,12 @@ This project demonstrates that combining **nanoparticle-enhanced Raman spectrosc
 
 - **Performance metrics**  
   Comparison of model performance across variants. The final pipeline (SVM + PCA + KMeans) achieved 92.5% accuracy with perfect specificity.  
-  <img src="visuals/figure22.png" width="600">  
+  <img src="visuals/performance_metrics.png" width="600">  
 
 - **Confusion matrices**  
-  Breakdown of classification outcomes: perfect specificity (no false positives) and strong sensitivity.  
-  - Counts / percentages  
-    <img src="visuals/confusion_matrix.png" width="360">  
-  - Normalized (0–1)  
-    <img src="visuals/confusion_matrix_normalized.png" width="360">  
+  Breakdown of classification outcomes: perfect specificity (no false positives) and strong sensitivity. 
+    <img src="visuals/confusion_matrix_heatmap.png" width="360">  
+  
 
 ---
 
