@@ -1,6 +1,6 @@
 # 🌍 World Happiness Analysis (2015–2019)
 
-Understanding what makes people happier — across countries, regions, and years — through data-driven analysis.  
+Understanding what makes people happier, across countries, regions, and years, through data-driven analysis.  
 This project explores the **World Happiness Report datasets (2015–2019)** using **R** to uncover which factors most strongly influence happiness levels globally.
 
 ![R](https://img.shields.io/badge/Language-R-blue?logo=r)![Tidyverse](https://img.shields.io/badge/Data%20Manipulation-tidyverse-9cf)![ggplot2](https://img.shields.io/badge/Visualization-ggplot2-orange) 
