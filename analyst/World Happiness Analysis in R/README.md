@@ -32,49 +32,57 @@ Identify the **key socio-economic factors** that drive happiness and visualize h
 ## 📊 Key Visuals & Insights
 
 ### 1️⃣ Global Distribution of Happiness
-![Global Happiness Map](visuals/happiness_by_country.png)  
+<img src="visuals/happiness_by_country.png" alt="Global Happiness Map" width="600">
+
 *Displays global happiness scores, showing how happiness levels cluster across continents. The geographic gradient highlights socio-economic and cultural disparities.*
 
 ---
 
 ### 2️⃣ Factor Contribution to Global Happiness
-![Factor Contribution Pie](visuals/global_factor_contribution_pie_colored.png)  
+<img src="visuals/global_factor_contribution_pie.png" alt="Factor Contribution Pie Chart" width="600"> 
+
 *Social support, GDP, and health are the dominant contributors to happiness globally in 2019, emphasizing the human and economic foundations of wellbeing.*
 
 ---
 
 ### 3️⃣ Top Performing Countries Breakdown
-![Top Countries Breakdown](visuals/top5_countries_factors_breakdown.png)  
+<img src="visuals/top5_countries_factors_breakdown.png" alt="Top Countries Breakdown" width="600">
+
 *Among the happiest nations (e.g., Finland, Denmark, Iceland), the largest contributors are social trust and support, while freedom and generosity remain consistent secondary factors.*
 
 ---
 
 ### 4️⃣ Income vs Happiness
-![Income Difference](visuals/income_difference.png)  
-*Higher-income groups consistently report greater happiness, showing that economic stability underpins subjective wellbeing across countries.*
+<img src="visuals/income_difference.png" alt="Income Difference" width="600">
+
+*Higher-income groups consistently report greater happiness, showing that economic stability underpins subjective well-being across countries.*
 
 ---
 
 ### 5️⃣ Factor Correlation Heatmap
-![Heatmap](visuals/heatmap_factors.png)  
+<img src="visuals/heatmap_factors.png" alt="Heatmap" width="600">
+
 *Strong positive correlations appear between GDP, health, and social support — indicating these variables move together in shaping happiness.*
 
 ---
 
 ### 6️⃣ Factor Trends Over Time
-![Line Plot](visuals/line_plot.png)  
+<img src="visuals/line_plot.png" alt="Line Plot" width="600">
+
 *Over 2015–2019, social support and GDP steadily increased, reinforcing their stable role in determining overall happiness.*
 
 ---
 
 ### 7️⃣ Country-Level Factor Trends
-![Finland Trends](visuals/line_plot_finland_factors.png)  
+<img src="visuals/line_plot_finland_factors.png" alt="Finland Trends" width="600">
+
 *Finland’s steady rise in happiness aligns with increases in GDP and health scores, matching its top global ranking in the report.*
 
 ---
 
 ### 8️⃣ Regional Distribution
-![Regional Boxplot](visuals/box_plot_regional.png)  
+<img src="visuals/box_plot_regional.png" alt="Regional Boxplot" width="600">
+
 *Western Europe and Australia consistently outperform other regions in happiness, while Sub-Saharan Africa and South Asia lag behind.*
 
 ---
@@ -90,8 +98,7 @@ Identify the **key socio-economic factors** that drive happiness and visualize h
 
 ## 🔗 Project Assets 
 🎨 Visuals: `/visuals` folder   
+▫️ Data: `/data` folder
 
 ---
-
-> This project demonstrates the use of R for social-science-driven analytics, blending quantitative rigor with visual storytelling to reveal what drives human wellbeing.
 
