@@ -39,7 +39,7 @@ Identify the **key socio-economic factors** that drive happiness and visualize h
 ---
 
 ### 2️⃣ Factor Contribution to Global Happiness
-<img src="visuals/global_factor_contribution_pie.png" alt="Factor Contribution Pie Chart" width="600"> 
+<img src="visuals/global_factor_contribution_pie.png" alt="Factor Contribution Pie Chart" width="900"> 
 
 *Social support, GDP, and health are the dominant contributors to happiness globally in 2019, emphasizing the human and economic foundations of wellbeing.*
 
@@ -74,14 +74,14 @@ Identify the **key socio-economic factors** that drive happiness and visualize h
 ---
 
 ### 7️⃣ Country-Level Factor Trends
-<img src="visuals/line_plot_finland_factors.png" alt="Finland Trends" width="600">
+<img src="visuals/line_plot_finland_factors.png" alt="Finland Trends" width="500">
 
 *Finland’s steady rise in happiness aligns with increases in GDP and health scores, matching its top global ranking in the report.*
 
 ---
 
 ### 8️⃣ Regional Distribution
-<img src="visuals/box_plot_regional.png" alt="Regional Boxplot" width="600">
+<img src="visuals/box_plot_regional.png" alt="Regional Boxplot" width="900">
 
 *Western Europe and Australia consistently outperform other regions in happiness, while Sub-Saharan Africa and South Asia lag behind.*
 
