@@ -65,34 +65,49 @@ By accurately forecasting energy usage, such models can help design **smarter en
 ### **Exploratory Data Analysis**
 
 **Target Variable Distribution**
+
 <img src="visuals/histogram_target.png" width="600"/>
+
 *Energy consumption is right-skewed, with most readings under 100 Wh.*
 
 **Log Transformation Effect**
+
 <img src="visuals/before_after_log_transform.png" width="600"/>
+
 *Log normalization reduced skewness and stabilized variance.*
 
 **Outlier Detection**
+
 <img src="visuals/dbscan_outlier_plot.png" width="600"/>
+
 *DBSCAN identified high-usage spikes retained as valid surges.*
 
 **Local Outlier Factor (LOF)**
+
 <img src="visuals/local_outlier_box_plot.png" width="600"/>
+
 *LOF confirmed outliers behaved similarly to regular points.*
 
 **Target Variable Boxplot**
+
 <img src="visuals/boxplot_target.png" width="600"/>
+
 *High-end outliers correspond to genuine consumption peaks.*
 
 **Correlation Matrix**
+
 <img src="visuals/correlation_plot.png" width="700"/>
+
 *Temperature (T1–T9) and Humidity (RH1–RH9) groups show strong intra-correlation.*
 
 **Consumption by Day & Hour**
+
 <img src="visuals/mean_energy_by_weekday.png" width="600"/>
+
 *Weekends (Fri–Sun) record higher usage than weekdays.*
 
 <img src="visuals/mean_energy_by_hour.png" width="600"/>
+
 *Energy peaks around 7 PM — matching evening household activity.*
 
 ---
@@ -100,15 +115,21 @@ By accurately forecasting energy usage, such models can help design **smarter en
 ### **Feature Engineering**
 
 **Top 20 Features Selected via RFE**
+
 <img src="visuals/rfe_top20_features_v2.png" width="700"/>
+
 *Top 5 predictors (gold) had strongest influence on appliance energy.*
 
 **PCA Variance Curve**
+
 <img src="visuals/pca_variance_curve_v2.png" width="700"/>
+
 *9 components capture 95 % of total variance.*
 
 **Before vs After PCA**
+
 <img src="visuals/before_after_pca_grid_v2.png" width="800"/>
+
 *Dimensionality reduced from 27 → 9 principal components.*
 
 ---
@@ -116,15 +137,21 @@ By accurately forecasting energy usage, such models can help design **smarter en
 ### **Modeling and Results**
 
 **Model Performance (R²)**
+
 <img src="visuals/model_comparison_r2.png" width="600"/>
+
 *Neural Network achieved highest R² before PCA.*
 
 **PCA Effect on Models**
+
 <img src="visuals/pca_effect_models.png" width="650"/>
+
 *LASSO improved most after PCA, showing reduced overfitting.*
 
 **Neural Network Architecture**
+
 <img src="visuals/nn_architecture.png" width="800"/>
+
 *Two hidden layers (ReLU) + Dropout (0.2) prevented overfitting.*
 
 ---
