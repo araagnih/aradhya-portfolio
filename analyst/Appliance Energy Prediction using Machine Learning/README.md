@@ -126,21 +126,9 @@ By accurately forecasting energy usage, such models can help design **smarter en
 
 *9 components capture 95 % of total variance.*
 
-**Before vs After PCA**
-
-<img src="visuals/before_after_pca_grid_v2.png" width="800"/>
-
-*Dimensionality reduced from 27 → 9 principal components.*
-
 ---
 
 ### **Modeling and Results**
-
-**Model Performance (R²)**
-
-<img src="visuals/model_comparison_r2.png" width="600"/>
-
-*Neural Network achieved highest R² before PCA.*
 
 **PCA Effect on Models**
 
