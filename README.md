@@ -31,8 +31,8 @@ Welcome 👋 this is a curated portfolio showing **research**, **data analytics*
 
 | Project | Description | Tools |
 |:---|:---|:---|
-| [**Failure Analysis of Stainless Steel**](./projects/engineer/Failure%20Analysis%20of%20Stainless%20Steel) <br><img src="thumbnails/thumbnail_03 .png" width="300" style="border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.25);"> | Investigated fracture mechanisms through microscopy and mechanical testing. | SEM · Metallography |
-| [**Water Filtration System**](./projects/engineer/Water%20Filtration%20System) <br><img src="thumbnails/thumbnail_08.png" width="300" style="border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.25);"> | Designed and prototyped a sustainable, low-cost filtration unit for rural applications. | CAD · Design · Prototyping |
+| [**Failure Analysis of Stainless Steel**](./projects/engineer/Failure%20Analysis%20of%20Stainless%20Steel) <br><img src="thumbnails/thumbnail_03 .png" width="300" style="border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.25);"> | Investigated fracture mechanisms through microscopy and mechanical testing. | SEM · Failure Analysis · Metallography Metallography |
+| [**Water Filtration System**](./projects/engineer/Water%20Filtration%20System) <br><img src="thumbnails/thumbnail_08.png" width="300" style="border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,0.25);"> | Designed and prototyped a sustainable, low-cost filtration unit for rural applications. | Design · Cost Optimization · MVP Prototyping |
 
 ---
 
